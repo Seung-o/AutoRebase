@@ -21,7 +21,7 @@ jobs:
             - name: Build
               run: yarn run build
             - name: Run index.ts
-              uses: ./action.yml # Uses an action in the root directory
+              uses: ./ # Uses an action in the root directory
               with:
                   github_token: ${{ secrets.REBASE_TOKEN }}
                   base_branch: main
