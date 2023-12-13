@@ -16,7 +16,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Label305/MyFirstGithubAction.git"
+        "url": "git@github.com:Seung-o/AutoRebase.git"
     },
     "keywords": [],
     "author": "",
@@ -24,7 +24,7 @@
     "bugs": {
         "url": "https://github.com/Label305/MyFirstGithubAction/issues"
     },
-    "homepage": "https://github.com/Label305/MyFirstGithubAction#readme",
+    "homepage": "https://github.com/Seung-o/AutoRebase",
     "dependencies": {
         "@actions/core": "^1.2.6",
         "@actions/exec": "^1.0.4",
